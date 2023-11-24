@@ -110,7 +110,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #6c8f9d;
 }
 
 
@@ -122,13 +122,14 @@ nav li a.active {
 
 .item-plaatje {
   float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width: 100cm;
+  height: 50cm;
+  padding-right: 10ch; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-tekst {
   float: right;
-  width: 450px;
+  width: 250px;
 }
 
 /************************* SUBPAGINA *************************/
