@@ -23,7 +23,7 @@
 }
 
 html, body {                     /*  geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: #0e51d8;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #0081fa;
   overflow: hidden;
 }
 
@@ -99,18 +99,19 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: white;
+  color: #270c0d;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 10p;
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #0081fa;
 }
 
 nav li a.active {
-  background-color: #6c8f9d;
+  background-color: #0081fa;
 }
 
 
@@ -122,14 +123,20 @@ nav li a.active {
 
  .item-plaatje {
   float: left;
-  width: 400px;
+  width: 500pt;
   height: 400px; 
   padding-right: 3px; /* zorgt dat plaatje niet tegen tekst komt */ 
  }
 
+itemklein-plaatje
+float: :left;
+width:  200px;
+height: 200px;
+padding-right: 3px;
+
 .item-tekst {
-  float: left;
-  width:  250px;
+  float:lett;
+  width:  500pt;
 }
 
 /************************* SUBPAGINA *************************/
