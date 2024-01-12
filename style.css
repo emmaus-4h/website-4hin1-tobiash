@@ -122,8 +122,8 @@ nav li a.active {
 
  .item-plaatje {
   float: left;
-  width: 200px;
-  height: 150px; 
+  width: 400px;
+  height: 400px; 
   padding-right: 3px; /* zorgt dat plaatje niet tegen tekst komt */ 
  }
 
